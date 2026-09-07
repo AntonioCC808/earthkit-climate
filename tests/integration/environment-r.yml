@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2026 European Centre for Medium-Range Weather Forecasts (ECMWF)
+# SPDX-License-Identifier: Apache-2.0
+
+name: earthkit-climate-climate4r
+
+channels:
+- conda-forge
+- nodefaults
+
+dependencies:
+- r-base=4.3
+- r-loader=1.8.4
+- r-climate4r.climdex=0.2.3
